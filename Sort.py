@@ -6,8 +6,8 @@ class Sort:
         raise NotImplementedError("必须实现sort方法！")
 
     @classmethod
-    def less(cls, arrA, arrB):
-        return arrA < arrB
+    def less(cls, i, j):
+        return i < j
 
     @classmethod
     def exch(cls, arr, i, j):
